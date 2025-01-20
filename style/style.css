@@ -33,11 +33,11 @@
     line-height: 30px;
     color: #111111;
 }
-.navbar ul li{
+.navbar ul li, .footer li{
     list-style: none;
     margin: 0 15px;
 }
-.navbar ul a{
+.navbar ul a, .footer li a{
     text-decoration: none;
     font-weight: 500;
     line-height: 30px;
@@ -137,6 +137,30 @@
 }
 .content1-description{
     font-size: 1.25rem;
+}
+.content2-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+}
+.footer li{
+    margin-bottom: 20px;
+}
+.footer li a{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.content3-title{
+    font-weight: bold;
+    line-height: 26px;
+    font-size: 1.625rem;
+    margin-bottom: 32px;
+}
+.footer-con-3 img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
 }
 
   /* Responsive Design for Small Screens  */
