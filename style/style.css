@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", serif;
+}
+/* shared styles */
+.navbar, .logo, .link ul, .banner-section{
+    display: flex;
+}
+
+
+
+/* header style start here */
+.header{
+    margin: 0 auto;
+    max-width: 1280px;
+    border: 1px solid red;
+    padding: 0px 10px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    height: 102px;
+}
+.logo{
+    align-items: center;
+}
+.logo-title{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 30px;
+    color: #111111;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navbar ul a{
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 1.25rem;
+}
+.home{
+    color: #FEA301;
+}
+.about{
+    color: #01ACFD;
+}
+.facilities{
+    color: #05D4DF;
+}
+.admission{
+    color: #5D58EF;
+}
+.contact, .banner-btn{
+    width: 197px;
+    max-height: 50px;
+    background-color: #FEA301;
+    border-radius: 12px;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1.25rem;
+    line-height: 30px;
+    font-weight: 600;
+    border: none;
+}
+.menu-icon{
+    display: none;
+}
+.menu{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+.banner-section{
+    max-height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    width: 60%;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 61px;
+    color: #111111;
+}
+.banner-description{
+    font-size: 1.25rem;
+    color: #111111;
+    margin-top: 24px;
+
+}
+.banner-btn{
+    background-color: #111111;
+    font-weight: bold;
+    margin-top: 24px;
+}
+.banner-img{
+    width: 35%;
+}
+.banner-img img{
+    width: 100%;
+}
+/* main section styles start here */
+.main{
+    background-image: url("../images/bg.png");
+    width: 100%;
+    background-size:;
+}
+/* footer section styles start here */
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #01ACFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.footer-content{
+    max-width: 1080px;
+    height: 222px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.content1-title{
+    line-height: 39.5px;
+    font-size: 2.63rem;
+    font-weight: bold;
+}
+.content1-description{
+    font-size: 1.25rem;
+}
+
+  /* Responsive Design for Small Screens  */
+  @media (max-width: 576px) {
+    .menu-icon {
+        display: block;
+    }
+    .link ul, .contact, .logo-title{
+        display: none;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    .banner-img, .banner-content{
+        width: 100%;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .footer-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
