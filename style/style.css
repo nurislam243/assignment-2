@@ -155,6 +155,16 @@
     background-image: linear-gradient(to bottom, rgba(242, 232, 255, 1), white);
     border: 1px solid rgba(242, 232, 255, 1);
  }
+ .card1 .readmore-btn{
+    color: #64C8FF;
+ }
+ .card2 .readmore-btn{
+    color: #F0AA00;
+ }
+.card3 .readmore-btn{
+    color: #8700FF;
+}
+
 .card img{
     margin-bottom: 32px;
 }
@@ -333,7 +343,7 @@ marquee{
 /* footer section styles start here */
 .footer{
     width: 100%;
-    height: 500px;
+    height: 450px;
     background-color: #01ACFD;
     display: flex;
     justify-content: center;
@@ -433,12 +443,11 @@ marquee{
     .arrow{
         display: none;
     }
-    .stories-2{
-        padding: 0px;
-        width: calc(100% - 30px);
-    }
     .story{
         width: 100%;
+    }
+    .stories-2{
+        padding: 0px 4px 0px 4px;
     }
     .date{
         padding: 0px;
@@ -457,6 +466,9 @@ marquee{
     }
     .footer-con-2{
         margin-left: 0px;
+    }
+    .footer-con-3 img{
+        margin-bottom: 20px;
     }
     
 
