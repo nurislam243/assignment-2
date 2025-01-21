@@ -279,15 +279,16 @@
 }
 .date{
     box-sizing: border-box;
-    padding-top: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
     text-align: center;
     position: relative;
     background-color: rgba(149, 178, 38, 1);
     border-radius: 48px;
-    width: 174px;
-    height: 38px;
+    max-width: 174px;
+    max-height: 38px;
     margin-top: -24px;
-    margin-left: 30px;
+    margin-left: 38px;
     font-weight: 500;
     line-height: 28.8px;
     font-size: 0.95875rem;
@@ -320,7 +321,10 @@
 
 }
 marquee{
+    border-top: 1px solid rgb(195, 210, 216);
+    border-bottom: 1px solid rgb(195, 210, 216);
     margin-top: 30px;
+    padding: 2px 0px 2px 0px;
     font-size: 2rem;
     font-weight: 500;
     color: rgb(196, 22, 115);
@@ -345,7 +349,7 @@ marquee{
     
 }
 .content1-title{
-    line-height: 39.5px;
+    line-height: 52px;
     font-size: 2.63rem;
     font-weight: bold;
     display: flex;
@@ -400,7 +404,11 @@ marquee{
     }
     .banner-section{
         flex-direction: column-reverse;
+        padding: 0 13px;
     }
+    /* .banner-title{
+        font-size: 2rem;
+    } */
     .banner-img, .banner-content{
         width: 100%;
     }
@@ -409,13 +417,32 @@ marquee{
     }
     .cards{
         flex-direction: column;
-        padding: 10px;
+        padding: 13px;
+        gap: 15px;
+        margin-top: 10px;
     }
+    /* .curriculam-title{
+        font-size: 1.8rem;
+    } */
     .card{
         width: 100%;
     }
+    /* .card-title{
+        font-size: 1.5rem;
+    } */
     .arrow{
         display: none;
+    }
+    .stories-2{
+        padding: 0px;
+        width: calc(100% - 30px);
+    }
+    .story{
+        width: 100%;
+    }
+    .date{
+        padding: 0px;
+        margin-left: 8px;
     }
     .footer{
         height: auto;
@@ -430,13 +457,6 @@ marquee{
     }
     .footer-con-2{
         margin-left: 0px;
-    }
-    .stories-2{
-        padding: 0 15px;
-        width: calc(100% - 30px);
-    }
-    .story{
-        width: calc(50% - 19.5px);
     }
     
 
