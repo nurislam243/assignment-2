@@ -213,7 +213,7 @@
 .stories-section{
     box-sizing: border-box;
     background-image: linear-gradient(to top, rgb(249,222,175), white);
-    padding: 0 10px 60px 10px;
+    padding: 0 10px 43px 10px;
 }
 .stories-content{
     margin: 0 auto;
@@ -230,6 +230,39 @@
     width: 100%;
     border-radius: 16px 16px 0px 0px;
 }
+.stories1-content{
+    padding: 58px 38px 34px 38px;
+}
+.stories1-date{
+    box-sizing: border-box;
+    padding-top: 9px;
+    text-align: center;
+    position: relative;
+    background-color: rgba(60, 216, 232, 1);
+    border-radius: 48px;
+    width: 174px;
+    height: 47px;
+    margin-top: -89px;
+    margin-left: 30px;
+    font-weight: 500;
+    line-height: 28.8px;
+    font-size: 0.95875rem;
+    color: white;
+    font-family: "Raleway", serif;
+}
+.stories1-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 38.3px;
+    color: #000000;
+}
+.stories1-description{
+    font-weight: 500;
+    color: #666666;
+    line-height: 28.8px;
+    font-size: 0.95875rem;
+    margin-top: 47px;
+}
 .stories-2{
     width: 100%;
     display: grid;
@@ -244,7 +277,27 @@
     width: 100%;
     border-radius: 16px 16px 0px 0px;
 }
-.story p{
+.date{
+    box-sizing: border-box;
+    padding-top: 5px;
+    text-align: center;
+    position: relative;
+    background-color: rgba(149, 178, 38, 1);
+    border-radius: 48px;
+    width: 174px;
+    height: 38px;
+    margin-top: -24px;
+    margin-left: 30px;
+    font-weight: 500;
+    line-height: 28.8px;
+    font-size: 0.95875rem;
+    color: white;
+    font-family: "Raleway", serif;
+}
+.date2{
+    background-color: rgba(93, 88, 240, 1);
+}
+.story .p2{
     margin: 30px;
     font-weight: bold;
     font-size: 0.95875rem;
@@ -265,6 +318,12 @@
     width: 197px;
     height: 50px;
 
+}
+marquee{
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(196, 22, 115);
 }
 
 /* footer section styles start here */
