@@ -109,16 +109,15 @@
 }
 /* main section styles start here */
 .main{
-    background-image: url("../images/bg.png");
     width: 100%;
 }
 /* curriculam section */
 .curriculam-section{
-    background-image: url("../images/bg.png");
-    background-repeat: no-repeat;
-    background-size: cover; 
+    background-image: url("../images/bg.png"); 
     width: auto;
     height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
 }
 .curriculam-title{
@@ -222,8 +221,8 @@
 }
 .stories-section{
     box-sizing: border-box;
-    background-image: linear-gradient(to top, rgb(249,222,175), white);
-    padding: 0 10px 43px 10px;
+    background-image: linear-gradient(to top, rgba(249,222,175,0.53), rgba(255, 255, 255, 0.5)), url("../images/bg.png");;
+    padding: 6px 10px 43px 10px;
 }
 .stories-content{
     margin: 0 auto;
