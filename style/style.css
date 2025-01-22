@@ -350,10 +350,11 @@ marquee{
     color: #FFFFFF;
 }
 .footer-content{
+    box-sizing: border-box;
+    margin-left: 10px;
     max-width: 1180px;
     height: 222px;
     display: grid;
-    padding: 0 10px;
     grid-template-columns: repeat(3, 1fr);
     
 }
@@ -387,6 +388,9 @@ marquee{
     color: #FFFFFF;
     font-weight: 500;
     font-size: 1.25rem;
+}
+.footer-con-3{
+    margin-left: 20px;
 }
 .content3-title{
     font-weight: bold;
@@ -466,8 +470,11 @@ marquee{
     .footer-con-2{
         margin-left: 0px;
     }
+    .footer-con-3{
+        margin-left: 0px;
+    }
     .footer-con-3 img{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     
 
